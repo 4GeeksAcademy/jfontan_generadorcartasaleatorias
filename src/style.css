@@ -1,1 +1,90 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+h1 {
+  font-size: 90px;
+}
+input {
+  width: 150px;
+}
+.carta {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.heart,
+.heart-turned {
+  color: red;
+  position: absolute;
+}
+
+.heart-turned {
+  transform: rotate(180deg);
+  bottom: 0;
+  right: 0;
+}
+
+.spade,
+.spade-turned {
+  color: rgb(0, 0, 0);
+  position: absolute;
+}
+
+.spade-turned {
+  transform: rotate(180deg);
+  bottom: 0;
+  right: 0;
+}
+
+.club,
+.club-turned {
+  color: rgb(0, 0, 0);
+  position: absolute;
+}
+
+.club-turned {
+  transform: rotate(180deg);
+  bottom: 0;
+  right: 0;
+}
+
+.diamond,
+.diamond-turned {
+  color: red;
+  position: absolute;
+}
+
+.diamond-turned {
+  transform: rotate(180deg);
+  bottom: 0;
+  right: 0;
+}
+
+.numero {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boton {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.boton:hover {
+  background-color: #fa9595;
+}
